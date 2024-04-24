@@ -18,7 +18,7 @@ export default function DetailsPage() {
     <div className="detailsPage">
       {/* <h1 className="detailsPage">Details Page</h1> */}
       <p className="goHome">
-        <Link to="/">Go Home</Link>
+        <Link to="/github-app/">Go Home</Link>
       </p>
 
       {/* {details && Object.keys(details).map((key, i) => <p key={i}><b>{key.toUpperCase()}</b>: {
@@ -66,7 +66,7 @@ export default function DetailsPage() {
         </>
       )}
       <p className="goHome">
-        <Link to="/">Go Home</Link>
+        <Link to="/github-app/">Go Home</Link>
       </p>
     </div>
   );

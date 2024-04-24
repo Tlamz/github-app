@@ -37,7 +37,7 @@ export default function RepositoryDetails({
           <p>
             <a href={html_url}>External Link to repo</a>
           </p>
-          <Link to={`/details/${id}${query}`}>View</Link>
+          <Link to={`details/${id}${query}`}>View</Link>
         </div>
       </div>
     </div>
