@@ -6,8 +6,8 @@ import { Routes, Route } from "react-router-dom";
 
 const AppRouter = () => (
   <Routes>
-    <Route path="/" element={<HomePage />}>
-      <Route path="details/:id" element={<DetailsPage />} />
+    <Route path="/github-app/" element={<HomePage />}>
+      <Route path="/github-app/details/:id" element={<DetailsPage />} />
     </Route>
     <Route path="*" element={<ErrorPage />} />
   </Routes>
